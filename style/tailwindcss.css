@@ -46,6 +46,18 @@
   display: none;
 }
 
+.auth-form-button:hover span{
+  animation-name: fadeInLeft;
+}
+
+@keyframes fadeInLeft {
+  50% {
+    transform: translate(50%);
+    opacity: 1;
+    display: inline;
+  }
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

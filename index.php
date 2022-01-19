@@ -35,6 +35,7 @@
     <?php include("./src/components/header.php") ?>
     <?php include("./src/components/upload.popup.php") ?>
 
+    <?php include("./src/page/profile.php") ?>
 
     <!-- script -->
     <script src="https://kit.fontawesome.com/f5f4cb5593.js" crossorigin="anonymous"></script>

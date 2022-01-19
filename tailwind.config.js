@@ -66,10 +66,14 @@ module.exports = {
         'screen-90': '90vh',
         'screen-100': '100vh',
       },
+      transitionDuration: {
+        'transition-15': '15ms'
+      },
     },
     plugins: [],
   },
   plugins: [
     require("tailwind-scrollbar-hide"),
+    require("autoprefixer"),
   ],
 }
