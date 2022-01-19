@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Readex+Pro:wght@400;500;700&display=swap');
+
+:root {
+  /* --primary: #;
+  --second: #; */
+  --one: #ffffff;
+  /* --two: #f7faf7; */
+  --two: #fafafa;
+  --three: #f1f1f1;
+  --four: #e5e4e2;
+  --five: #d1d1d1;
+  --six: #c7c7c6;
+  --seven: #acacac;
+  --eight: #837e7c;
+  --nine: #5e5e5e;
+  --ten: #0f0f0f;
+}
+
+@layer base {
+  body {
+    @apply font-montserrat;
+    @apply text-ten;
+    @apply bg-two;
+  }
+  select,
+  button {
+    @apply cursor-pointer;
+  }
+  input,
+  textarea,
+  select {
+    @apply outline-none;
+  }
+
+  a {
+    @apply text-inherit;
+  }
+
+  a,
+  button {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.x-scrollable::-webkit-scrollbar {
+  display: none;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
